@@ -1,0 +1,1323 @@
+WEB PROGRAMMING PRACTICAL 
+SYLLABUS
+
+Part – A
+
+1.	Design a HTML page describing your profile in one paragraph. Design in such a way that it has a heading, a horizontal rule, three links and your photo. Also, write three HTML documents for the links. Include facilities for forward, backward and HOME
+2.	Design a HTML page about computer languages. List the language. Each Language’s name is a link. Prepare separate HTML documents for each language and call them in the appropriate link.
+3.	Design a single page website for your polytechnic containing a description of the courses offered. It should also contain some general information about the college such as its history, the campus, and its unique features and so on. The site should be colored and each section should have a different color.
+4.	Develop a web page using CSS to create a time table for the class using different border style.
+5.	a) Write a Java script code that converts the entered text to uppercase.
+     b) Write a Java script code to validate the username and password.    The username and password are stored in variables.
+6.	Write a Java Script code using frames and Events ( When a cursor moves over an object it should display the specification of the object in another frame )
+7.	Create a site containing banner advertisement at the top of the page. The ads are changed every 10 or 15 seconds.
+8.	Write Jquery Program for Count the number of milliseconds between the two click events on a paragraph
+9.	Write Jquery Program for Fade in and fade out all division elements
+10.	Write Jquery Program for Disable/enable the form submit button Blink the text
+
+
+
+
+
+PART-B
+11.	Collect the definitions of 5 items in Open Source. These definitions are stored in two string arrays name[] and defn[]. Write a JSP which has these two arrays and supplies the definition on request. Write a HTML document which gets the user input of the name of the item and sends the request to the JSP.
+12.	Write a JSP code to manipulate cookies
+13.	Write a JSP code to upload data from client side
+14.	Write a program to check how many users have visited a website. Use Application object.
+15.	Write a Code in Java Script to count number of times you move over a link or record.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EX NO: 1
+DESIGNING A PROFILE
+AIM  
+
+  To Design a HTML page describing your profile in one paragraph. Design in such a way that it has a heading, a horizontal rule, three links and your photo. Also write three HTML documents for the links. Include facilities for forward backward and HOME.
+
+PROCEDURE
+
+ STEP: 1
+•	Click the start button and select the program --accessories    --    notepad
+STEP: 2
+•	Within   notepad   type html code.
+STEP: 3
+•	Select File            save as     save type filename with extension         .html
+STEP: 4
+•	Open web browser internet explorer.
+•	Select file and open the filename html.
+•	If any error occurs correct by right clicking select the editing source from menu.
+
+
+ PROGRAM
+
+<html>
+<head>
+<p align="center"><font color="red"><b>MY BIO-DATA</b></font> </p>
+<hr>
+</head>
+<body>
+<a href="a.html">first</a><br>
+<a href="b.html">second</a><br>
+<a href="c.html">third</a><br>
+<p align="center"><img src="D:\image.jpg"></img> <p>
+<font color="red"><b> NAME: </b></font><font color="BLUE"> <b> KARTHIK.K</b> </font></b><br><br>
+<font color="red"><b>AGE  : </b></font><font color="BLUE"><b> 18</b></font><br><br>
+<font color="red"><b>DATE OF BIRTH: </B></font><font color="BLUE"><b> 16.12.1994</b></font><br>
+<font color="red"><b>GENDER: </B></font><font color="BLUE"><b> MALE</b></font><br>
+<font color="red"><b>MARTIAL STATUS :</b></font><font color="BLUE"> <b> UNMARRIED</b></font></b></font><br>
+<font color="red"><b>QUALIFICATION :</b></font><font color="BLUE"><b> DIPLOMA IN COMPUTER ENGINEERING <br>
+<font color="red"><b>NATIONALITY :</b></font><font color="BLUE"><b> INDIAN</b></font><br>
+<font color="red"><b>RELIGION :</b></font><font color="BLUE"> <b> HINDU</b> </font><br>
+<font color="red"><b>CASTE :</b></font><font color="BLUE"><b> MOOTHAN</b></font><br>
+<font color="red"><b>MOTHER TOUNGUE :</b></font><font color="BLUE"><b>MALAYALAM</b></font><br>
+<font color="red"><b>LANGUAGE:</b></font><font color="BLUE"><b>MALAYALAM,ENGLISH,TAMIL,HINDI</b></font><br>
+<font color="red"><b>FATHER'S NAME:</b></font><font color="BLUE"><b>KANNAN.K</b></font><br>
+<pre> Address:   RADHIKA KANNAN
+                    4/9      SREE RAM STREET
+                            VADAKKANTHARA
+<font color="RED"><b> CITY: </b></font><br><font color="BLUE"><b>PALAKKAD </b></font></b></font><font color="RED"><b>PINCODE:</b></font><font color="blue"><B>678012<br></pre><br>
+<font color="red"><b>PHONE NO:</b></font><font color="BLUE"><b>828150990</b></font><br>
+<font color="red"><b>EAMIL ID:</b></font><font color="BLUE"><b>KARTHIK PALKKAD53@GAMIL.COM</b></font><br>
+<font color="red"><b>EXTRA QULIFICATION: </b></font><font color="blue"><b>PASSED SSLC&PLUS 2</b></font><BR>
+<font color="red"><b>HOBBIES: </b></font><font color="BLUE"><b>READING BOOKS,RIDING BIKES</b></font><br>
+</p></body>
+</html>
+A.HTML
+<html>
+<head>first link</head><br>
+<body>
+<a href="first html">home</a><br>
+<a href="b.html">forward</a><br>
+</body></html>
+B.HTML
+<html>
+<head>Second link</head><br>
+<body>
+<a href="first html">Home</a><br>
+<a href="c.html">forward</a><br>
+<a href=”a.html”>backward</a></br>
+</body>
+</html>
+C.HTML
+<html>
+<head>Third link</head><br>
+<body>
+<a href="first.html">Home</a><br>
+<a href="b.html">Backward</a><br>
+</body>
+</html>
+
+
+
+
+
+RESULT
+
+	Thus the program is executed and output is verified. 
+EX NO: 2
+HTML PAGE ABOUT COMPUTER
+LANGUAGES
+AIM
+
+To design a HTML page about computer languages .List the languages. Each language’s name is a Link. Prepare  separate HTML  documents  for  each language  and  call  from  in  the  appropriate  link.
+
+PROCEDURE 
+
+STEP: 1
+•	Click the start button and select the program --accessories    --    notepad
+STEP: 2
+•	Within   notepad   type html   code.
+STEP: 3
+•	Select File            save as     save type filename with extension .html
+STEP: 4
+•	Open web browser internet explorer.
+•	Select file and open the filename. html.
+•	 If any error occurs correct by right clicking select the editing source from menu.
+
+
+
+PROGRAM
+
+MAIN.HTML
+
+<html>
+<head>
+<FONT COLOUR="DARK BLUE"><FONT SIZE="5"> LANGUAGES</FONT></FONT></head><BR>
+<body>
+<br>
+<a href="c.html"><FONT COLOUR="RED"><FONT SIZE="5">C</a><br>
+<a href="c++.html"><FONT COLOUR="RED"><FONT SIZE="5">C++</a><br>
+<a href="JAVA.html"><FONT COLOR="RED"><FONT SIZE="5">JAVA</a><br>
+</body>
+</html>
+
+C.HTML
+<html>
+<head></head>
+<body>
+<p><FONT COLOR="YELLOW"><B>C is a programming language. It is very easy to do. It is very accuracy and efficiency.<BR></p>
+<a href="main.html">home</a><br>
+</body>
+</html>
+C++.HTML
+<html>
+<head></head>
+<body>
+<p><FONT COLOR="SKY BLUE"><B> C++ is a programming language. It is an object oriented programming language. The concepts are <br>1.Object<br>2.Class<br>3.Data Abstraction<br>4.Dynamic Binding</p>
+<a href="main.html">Home</a><br>
+</body>
+</html>
+JAVA.HTML
+<html>
+<head></head>
+<body>
+<p><FONT COLOUR="RED"><B> Java is a programming language. It is a pure object oriented programming language. The features of java  are <br>1.Reliable<br>2.Accuracy<br>3.Code Sharing<br>
+<a href="main.html">home</a><br>
+</body>
+</html>
+
+
+RESULT
+
+
+	Thus the program is executed and output is verified.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EX NO: 3
+COLLEGE WEBSITE
+AIM 
+
+Design a single page website for your polytechnic containing a description of the courses offered .it should also contain some general information about the college such as its history, the campus, and its unique features and so on. The site should be colored and each section should have a different color.
+
+PROCEDURE
+
+STEP: 1
+•	Click the start button and select the program --accessories    --    notepad
+STEP: 2
+•	Within   notepad   type html   code.
+STEP: 3
+•	select File            save as     save type filename with extension html
+STEP: 4
+•	Open web browser internet explorer.
+•	Select file and open the filename html.
+•	If any error occurs correct by right clicking select the editing source from menu.
+
+
+
+PROGRAM
+
+<html>
+<head><h4><p align="CENTER">
+SREE NARAYANA GURU POLYTECHNIC COLLEGE </h4></p>
+<h5><p align="center">approved by AICTE New Delhi & Govt. of TamilNadu) </p> <br>
+<p align="center"> (An ISO 9001 : 20000 Certified Institution)</p>
+</h5></p>
+</head>
+<style>
+h1{font-family:arial,sans;font-size=20;color:black}
+h2{font-family:arial,sans;font-size=20;color:black}
+h3{font-family:arial,sans;font-size=15;color:black}
+h4{font-family:times new roman;font-size=35;color:black}
+h5{font-family:times new roman;font-size=25;color:black}
+h6{font-family:times new roman;font-size=15;color:black}
+</style>
+<body bgcolor="pink"text="black">
+<h1>
+<pre><p>
+Madukkarai
+Coimbatore-105</pre></p>
+<p align="right"><hr>phone-0422-435231<br>
+E.mail-snget@gmail.com</p>
+</h1>
+<br>
+<h2>
+<p>Courses Offered</p>
+<ul type="DISC">
+<li>CSE</li>
+<li>EEE</li>
+<li>ECE</li>
+<li>IT</li>
+</ul>
+</h2>
+<br>
+<h3>
+<pre><p><p align="center"><b>QUALITY POLICY</b><br>
+<b> we strive to impart value based technical education<br>
+To improve the knowledge, skill and character of our students<br>
+</b></p><br>
+</h3>
+<h6>
+<b>OTHER FRCILITES IN OUR COLLEGE</b>
+Bus facilities available
+Boys hostel available inside the campus</pre></p>
+</h6>
+</body>
+</html>
+
+
+
+
+
+RESULT
+
+
+Thus the program is executed and output is verified.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EX NO: 4			
+
+CREATE A TIME TABLE USING CSS
+
+AIM
+
+Write a program using css to create a time for the class.
+
+PROCEDURE 
+
+STEP:1
+•	Click the start button and select the program --accessories    --    notepad
+STEP:2
+•	Within   notepad   type html   code.
+STEP: 3
+•	select File            save as     save type filename with extension html
+STEP: 4
+•	Open web browser internet explorer.
+•	Select file and open the filename html.
+•	 If any error occurs correct by right clicking select the editing source from menu.
+
+ PROGRAM
+
+<html>
+<head><BR><BR><BR><BR><BR>
+<h1><b><P ALIGN="CENTER">TIME TABLE</P></b></H1><br>
+<STYLE TYPE="TEXT/CSS">
+h2{font-famliy:arial,helvita;font-size:16pt:colour:red;}
+body{font-famliy:times,serif;font-size:20pt:colour:white;background:pink;}
+h3{font-famliy:monospace,sans-serif;font-size:18pt:colour:red;}
+</style>
+</head>
+<body>
+<table ALIGN="CENTER" border="5" CELL PADDING="10" WIDTH="80%" CELL SPACING="10">
+<tr>
+<td><h2>Hours/Days</h2></td>
+<th><h3>I</h3></tH>
+< th ><h3>II</h3></tH>
+< th ><h3>III</h3></tH>
+< th ><h3>IV</h3></tH>
+< th ><h3>V</h3></tH>
+</tr>
+<tr>
+<td><h3>MONDAY</h3></td>
+<h1>	<td>Tamil</td>
+<td>English</td>
+<td>Maths</td>
+<td>Science</td>
+<td>Social</td>
+</h1>
+</tr>
+<tr>
+<td><h3>TUESDAY</h3></td>
+<h1>	<td>English</td>
+<td>Maths</td>
+<td>Science</td>
+<td>Social</td>
+<td>Tamil</td>
+</h1>
+</tr>
+<tr>
+<td><h3>WEDNESDAY</h3></td>
+<h1>
+<td>Maths</td>
+<td>Science</td>
+<td>Social</td>
+<td>Tamil</td>
+<td>English</td>
+</h1>
+</tr>
+<tr>
+<td><h3>THURSDAY</h3></td>
+<h1>
+<td>Science</td>
+<td>Social</td>
+<td>Tamil</td>
+<td>English</td>
+<td>Maths</td>
+</h1>
+</tr>
+<tr>
+<td><h3>FRIDAY</h3></td>
+<h1>
+<td>Social</td>
+<td>Tamil</td>
+<td>English</td>
+<td>Maths</td>
+<td>Science</td>
+</h1>
+</tr>
+</table>
+</body>
+</html>
+
+RESULT
+
+	Thus the program is executed and output is verified.
+EX NO: 5a
+CONVERTING TEXT TO UPPER CASE 
+AIM:
+	To Write a JavaScript code that converts the entered text into uppercase.
+PROCEDURE:
+
+1.	Click the start button and select the program --accessories    --    notepad
+2.	Include the script tag and add mention the language of java script.
+3.	Declare a variable varchar str assign the text as “HELLO”.
+4.	Declare another variable str1 and assign the operator to uppercase to start to convert lowercase letter to uppercase.
+5.	Print the output using document write function.
+6.	If any error occurs correct by right clicking select the editing source from menu.
+
+
+ PROGRAM
+
+<html>
+<head>
+<title>Lowercase to uppercase</title>
+<head>
+<body>
+<script language="JavaScript">
+var str=new String("Hello")
+var str1=str.toUpperCase();
+document.write("The upper case String for "+str+" is "+str1);
+</script>
+</body>
+</html>
+
+RESULT
+	
+Thus the program is executed and output is verified.
+
+EX NO: 5b
+VALIDATING USER NAME&PASSWORD
+AIM:
+
+To write a java script code to validate the username and password the username and password are store in the variables.
+PROCEDURE:
+1.	Click the start button and select the program --accessories    --    notepad
+2.	Include the script tag and add the language as java script.
+3.	Declare a variable user and pass.
+4.	Get input for  username and password using prompt box
+5.	Check user and pass using if condition
+6.	If matches display login successful using alert box
+7.	Else print login failed
+8.	If any error occurs correct by right clicking select the editing source from menu.
+
+PROGRAM
+
+<html>
+<head>
+<title>  User Name Password</title>
+</head>
+<body>
+<script language="JavaScript">
+	var user=prompt("Enter username");
+var pass=prompt("Enter password");
+if((user=="aa")&&(pass=="bb"))
+{
+alert("Login successfully");
+}
+else
+{
+alert("Login faild");
+}
+</script></body></html>
+
+
+RESULT
+
+
+	Thus the program is executed and output is verified.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EX NO: 6
+FRAMES & EVENTS
+AIM:
+
+	Write a java script code using frames and event (when) cursor moves over an object it should display the specification of the object in another frame.
+
+PROCEDURE:
+
+1.	Click the start button and select the program --accessories    --    notepad
+2.	Include the script tag and add the language as java script.
+3.	Include frames by using frameset tag.
+4.	Create first frame .Include FORM tag and mouse move event in it. And save the file.
+5.	Create second frame and include textbox in it .Save it in another file.
+6.	Execute the program in any one browser.
+7.	Check when mouse cursor moves the output displayed in next frame.
+8.	If any error occurs correct by right clicking select the editing source from menu..
+
+PROGRAM
+
+MAIN.HTML
+
+<html>
+<head>
+<title>Frames Values</title>
+</head>
+<frameset cols="20%,80%">
+<frame src="frame1.html"name="left_frame">
+<frame src="frame2.html"name="right_frame">
+</frameset>	<noframes>
+</noframes>
+</html>
+Frame1.HTML
+<html>
+<head>
+<title>frame1 event</title>
+</head>
+<body>
+<form>
+<p>
+<input type="button" value="what is cool?"onMouseMove="parent.right_frame.document.form1.text1.value='What is cool?'">
+</p>
+<input type="button" value="what is hot?"onMouseMove="parent.right_frame.document.form1.text1.value='What is hot?'">
+</p>
+<p>&nbsp;
+</p>
+</form>
+</body>
+</html>
+
+Frame2.HTML 
+<html>
+<head>
+<title>frame 2</title>
+<head>
+<body>
+<form name="form1">
+<input type="text" name="text1" size="25" value=" ">
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+OUTPUT
+
+ 
+
+
+
+RESULT
+
+	Thus the program is executed and output is verified.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EX NO: 7
+SITE FOR BANNER ADVERTISEMENT
+AIM:
+
+	To create a site containing banner advertisement at the top of the page the ads are changed every 10 or 15 seconds.
+PROCEDURE:
+
+1.	Click the start button and select the program --accessories    --    notepad
+2.	Within the notepad type the necessary script tag and html tags..
+3.	Get the array of images.
+4.	Using the function startTime() create the advertisement banner,.
+5.	Save the file using .html extension.
+6.	Execute the program in any browser and view the output.
+7.	If any error occurs correct by right clicking select the editing source from menu.
+PROGRAM
+ <html>
+<head>
+<title> Advertisement Banner</title>
+<script language=”javascript” type=”text/javascript”>
+var timerid=0;
+var images=new array (“image1.jpg”,
+”image2.jpg”,
+”image3.jpg”);
+var  countimages=0;
+function StartTime()
+{
+If(timerid)
+{
+Timerid=0;
+}
+Var tDate=new Date();
+If(countimages= =images.length)
+{
+Countimages=0;
+}
+If(tDate.getSeconds()%5= =0)
+{
+document.getElementById(“img1”).src=images[countimages];
+}
+Countimages++;
+Timerid=setTimeOut(“startTime()”,1000);
+}
+</script>
+</head>
+<body onload=”startTime();”>
+<img id=”img1” src=”image1.jpg” height=”500” width=”600” align=”center”> SNGPC></img>
+</body>
+</html>
+OUTPUT
+
+ 
+
+
+
+
+RESULT
+Thus the program is executed and output is verified.
+
+
+
+EX NO: 8
+JQUERY FOR COUNT THE SECONDS BETWEEN CLICK EVENTS
+AIM:
+
+	To create a Jquery program for count the number of milliseconds between two click events on a paragraph.
+PROCEDURE:
+
+1.	Click the start button and select the program --accessories    --    notepad
+2.	Within the notepad include the jquery library.
+3.	Add jquery script for count the milliseconds between two click events.
+4.	Add necessary HTML tags.
+5.	Execute the program using any browser.
+6.	If any errors occur correct it by right click editing source from menu.
+
+PROGRAM
+
+<html>
+<head>
+<script src="file:///C:/Documents%20and%20Settings/CSE/My%20Documents/karthika/html/jquery-3.2.1.min.js"></script>
+<meta charset="utf-8">
+<title> jsbin</title>
+<script>
+$(document).ready(function(){
+var lastt, tdiff;
+$( "p" ).click(function( event ) {
+  if (lastt) {
+    tdiff = event.timeStamp - lastt;
+    $( "div" ).append( "Time since last event: " + tdiff + "<br>" );
+  } else {
+    $( "div" ).append( "<br>Click again.<br>" );
+  }
+  lastt = event.timeStamp;
+  });
+});
+</script>
+</head>
+<body>
+<p>Count the number of milliseconds between the two click events on a paragraph </p>
+  <div>Click on the above paragraph</div>
+</body>
+</html>
+OUTPUT
+
+ 
+
+
+
+RESULT:
+	Thus the program is executed and output is verified.
+
+
+
+
+
+EX NO: 9
+FADE IN AND FADE OUT
+AIM:
+
+	To create a JQuery program for fade in and fade out all division elements.
+PROCEDURE:
+
+1.	Click the start button and select the program --accessories    --    notepad
+2.	Within the notepad include the jquery library.
+3.	In jquery fadeIn() is used to display the matched elements.
+4.	FadeOut() is used to hide the matched elements.
+5.	Add necessary HTML tags.
+6.	Execute the program using any browser.
+7.	If any errors occur correct it by right click editing source from menu.
+
+PROGRAM
+<html>
+<head>
+<script src="file:///C:/Documents%20and%20Settings/CSE/My%20Documents/karthika/html/jquery-3.2.1.min.js"></script>
+<script>
+$(document).ready(function(){
+
+$( "#btn1" ).click(function() {
+  
+    $( "div" ).fadeOut(3000);
+    });
+$( "#btn2" ).click(function() {
+  
+    $( "div" ).fadeIn(3000);  
+  });
+});
+</script>
+<meta charset="utf-8">
+<title> jsbin</title>
+</head>
+<button id="btn2">Fade In(3 Second)</button>
+<button id="btn1">Fade Out(3 Second)</button>
+<div      style="background:#2E9AFE;width:100%;height:40px;padding:30px;text-align:center;">My Effect is fadeout effect</div>
+</body>
+</html>
+OUTPUT:
+ 
+
+
+
+
+
+
+RESULT:
+	Thus the program is executed and output is verified.
+
+
+
+
+
+EX NO: 10
+ENABLE THE SUBMIT BUTTON AND BLINK THE TEXT
+AIM:
+
+	To create a JQuery program for enable/disable the submit button and blink the text.
+PROCEDURE:
+
+1.	Click the start button and select the program --accessories    --    notepad
+2.	Within the notepad include the jquery library.
+3.	Add jquery script for blink the text using $(‘blink’).
+4.	Add jquery script for enable the submit button using prop () and keyup () function.
+5.	Add necessary HTML tags.
+6.	Execute the program using any browser.
+7.	If any errors occur correct it by right click editing source from menu.
+PROGRAM
+<html>
+<head>
+<script src="file:///C:/Documents%20and%20Settings/CSE/My%20Documents/karthika/html/jquery-3.2.1.min.js"></script>
+<script>
+function blink_text(){
+$('.blink').fadeOut(500);
+$('.blink').fadeIn(500);
+}
+setInterval(blink_text,1000);
+$(document).ready(function() {
+     $(':input[type="submit"]').prop('disabled', true);
+     $('input[type="text"]').keyup(function() {
+        if($(this).val() != '') {
+           $(':input[type="submit"]').prop('disabled', false);
+        }
+     });
+ });
+</script>
+<meta charset="utf-8">
+<title> jsbin</title>
+</head>
+<body>
+<p> jquery<span class="blink">Exercises</span>and solution</p>
+<p> after start up in the textbox the submit button will be enabled</p>
+<input type="text" name="textfield"/>
+<input type="submit" value="submit"/>
+</body>
+</html>
+OUTPUT:
+ 
+
+
+RESULT:
+	Thus the program is executed and output is verified.
+
+
+
+
+PART-B
+EX NO: 11	
+SENDING REQUEST TO JSP
+AIM:
+
+	To collect the definitions of 5 items in open source. These definition are stored in two string arrays name [] and defn[]. Write a jsp which has these two arrays and supplies the definition on request. Write a HTML document which gets the user input of the name of the item and sends the request to the jsp.
+
+PROCEDURE:
+
+1.	Click the start button and select the program --accessories    --    notepad
+2.	Create an html file called main.html using necessary html tag.
+3.	Create a form using necessary tags.
+4.	Create a textbox , submit button and a label.
+5.	Create another jsp file using necessary tags.
+6.	Set the initial values and set the required types.
+7.	create  an array  name[] and assign all definition terms.
+8.	Check the name of definition with user entered term using if statement.
+9.	If match display the definition.
+10.	Save the file using .jsp extention in  C:\Program Files\ApacheSoftwareFoundation\tomcat 
+5.0\webapps\Root\user directory\    .jsp 
+11.	Open internet explorer and in address bar type http:// localhost : 8080/user directory/filename  to Execute the program.
+12.	Print the output.
+13.	Stop.
+
+PROGRAM
+Main.html
+<html>
+<head>
+<title>OPEN SOURCE</title>
+</head>
+<BODY>
+<form  id="form1" name="form1" method="post" action="valdef.jsp">
+<h2>some definitions  in OPEN SOURCE</h2>
+<hr><br>Enter an open source term here:
+<input name="t1" type="text" id="t1"/><br>
+<input type ="submit" name="submit" value="submit"/ >
+</form>
+</body>
+</html>
+Valdef.jsp
+<% String name=request.getParameter("t1");
+String def;
+if(name.equals("LINUX"))
+{
+def="LINUX IS A FREE OS";
+}
+else if(name.equals("PHP"))
+{
+def="HYPERTEXT PRE PROCESSOR";
+}
+else if(name.equals("PYTHON"))
+{
+def="SCRIPTING LANGUAGE";
+}
+else if(name.equals("C"))
+{
+def="PROGRAMMING LANGUAGE";
+}
+else if(name.equals("PERL"))
+{
+def="SCRIPTING LANGUAGE";
+}
+else
+{
+def="Enter an open source term";
+}
+out.println(def); %>
+
+
+
+OUTPUT
+
+
+ 
+
+
+
+
+
+
+RESULT
+
+	Thus the program is executed and output is verified.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EX.NO.12       
+MANIPULATE COOKIES
+
+AIM:
+
+	To write a JSP code to manipulate cookies.
+
+PROCEDURE:
+
+1.	Click the start button and select the program --accessories    --    notepad
+2.	Create a jsp document cookieform.jsp with the necessary tags.
+3.	Create a form and set the method as post and action as setcookie.jsp.
+4.	Create a text box and label as “enter your name”
+5.	Create a submit button.
+6.	To create setcookie.jsp document ,include language as java.
+7.	Create a string called username assign to the request method.
+8.	Set the username as “” if username is null.
+9.	Set the cookie as new cookie (“ username”,username) and call a function cookie.setmaxage(365*24*60*60)
+10.	Then call the function response.addcookie (cookie).
+11.	Create a link as next page to view the cookie value
+12.	To create showcookievalue.jsp set the language as java
+13.	Create an array cookie[] and a string cookiename
+14.	Set cookie[] equals request.getcookie() function.
+15.	If cookie is not equal to null do the next step.
+16.	Use a for loop to find cookie length and cookie name
+17.	Then check using if statement  my cookie as null.
+18.	If it is true type as no cookie found with the name.
+19.	Else type as welcome my cookie.getvalue.
+20.	Save the file using .jsp extention in  C:\Program Files\ApacheSoftwareFoundation\tomcat 5.0\webapps\Root\user directory\    .jsp 
+21.	Open internet explorer and in address bar type http:// localhost : 8080/user directory/filename  to Execute the program.
+22.	Stop.
+
+
+PROGRAM
+
+Cookie.jsp
+
+<%@page language="java"%>
+<html>
+<head>
+<title>cookie input form</title>
+</head>
+<body>
+<form method="get"action="setcookie.jsp">
+<p><b>Enter your name:</b>
+<input type="text"name="username"><br>
+<input type="submit"name="submit"value="submit">
+</form>
+</body>
+</html>
+Setcookie.jsp
+<%@page language="java"%>
+<%
+String username=request.getParameter("username");
+if(username==null)username=" ";
+Cookie cookie=new Cookie("username",username);
+cookie.setMaxAge(60*60);
+response.addCookie(cookie);
+%>
+<html>
+<head>
+<title>Cookie saved</title>
+</head>
+<body>
+<p>
+<a href="showcookievalue.jsp">Click her to see the cookie value</a>
+</p>
+</body>
+</html>
+Showcookievalue.jsp
+<%@page language="java"%>
+<%
+String cookieName="username";
+Cookie cookies[]=request.getCookies();
+Cookie mycookie=null;
+if(cookies!=null)
+{
+for(int i=0;i<cookies.length;i++)
+{
+if(cookies[i].getName().equals(cookieName))
+{
+mycookie=cookies[i];
+break;
+}
+}
+}
+%>
+<html>
+<head>
+<title>show saved cookie</title>
+</head>
+<body>
+<%
+if(mycookie==null)
+{
+%>
+no cookie found with the name<%=cookieName%>
+<%
+}
+else
+{
+%>
+<p>welcome:<%=mycookie.getValue()%>
+<%
+}
+%>
+</body></html>
+
+OUTPUT
+
+ 
+
+ 
+
+ 
+
+
+
+
+RESULT
+
+
+	Thus the program is executed and output is verified.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EX.NO.13.            
+UPLOADING DATA FROM CLIENT SIDE
+AIM:
+
+	To write a jsp code to upload data from client side.
+
+PROCEDURE:
+
+•	Click the start button and select the program --accessories    --    notepad	
+•	Include the html tags wherever necessary.
+•	Create a form using form tag and set action as formaction.jsp.
+•	Using input tag set the type as file and create a submit button.
+•	To upload the files from client side use request.getparameter(file).
+•	Save the file using .jsp extention in  
+C:\Program Files\ApacheSoftwareFoundation\tomcat5.0\webapps\Root\userdirectory\    .jsp.
+•	Open internet explorer and in address bar type http:// localhost : 8080/user directory/filename  to Execute the program
+•	Print the output.
+
+PROGRAM
+
+FORMACTION.JSP
+<html>
+<head>
+<title>Uploading files</title>
+</head>
+<body>
+<h1>Uploading files</h1>
+file name:
+<%=request.getParameter("filer")%>
+</body>
+</html>
+
+
+
+UPLOAD.JSP
+<html>
+<head>
+<title>Uploading files</title>
+</head>
+<body>
+<FORM ACTION="formaction.jsp"METHOD="POST">
+<input type="file"name="filer"><br>
+<input type="submit"value="submit">
+</form>
+</body>
+</html>
+
+OUTPUT
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+RESULT
+
+	Thus the program is executed and output is verified.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EX.NO.14
+COUNT THE VISITORS USING APPLICATION OBJECT
+AIM:
+
+To write a program to check how many users have visited a website and use application object.
+
+PROCEDURE:
+
+•	Click the start button and select the program --accessories    --    notepad
+•	Include the html tags wherever necessary.
+•	Create a variable counter and assign as null.
+•	Create a string heading and assign as null.
+•	Check the counter value using if statement.
+•	If it is null set counter as integer (1).
+•	Else increment counter value by 1.
+•	Set the checked values in session object.
+•	If it is counted. Print you have visited the website that much times.
+•	Save the file and execute.
+•	Stop.
+
+PROGRAM
+<html>
+<head>
+<title>Using the Application Object</title>
+</head>
+<body bgcolor=bisque>
+<h1>Using the Application Object</h1>
+<%
+// -- Session object –
+Integer count = (Integer)session.getAttribute("count");
+if (count==null)
+count=new Integer(1);
+else
+count=new Integer(count.intValue()+1);
+session.setAttribute("count",count);
+// -- Application object --
+Integer appcount=(Integer)application.getAttribute("appcount");
+if (appcount==null)
+appcount=new Integer(1);
+else
+appcount=new Integer(appcount.intValue()+1);
+application.setAttribute("appcount",appcount);
+%>
+You have visit the page <%=count%> times.<br>
+This page visited by all users <%=appcount%> times.
+</body>
+</html>
+
+OUTPUT
+
+ 
+
+Result:
+
+	Thus the above program was successfully executed and then output was
+Verified.
+
+
+
+
+EX.NO.15
+
+LINK COUNTER USING JAVASCRIPT
+AIM:
+
+	To write a Code in Java Script to count number of times you move over a link.
+
+PROCEDURE:
+1.	 Click the Start button and select the program --accessories    --    notepad.
+2.	Include the necessary html tags and mention the language as JavaScript.
+3.	Declare a variable p and assign as 0.
+4.	Define a function a().
+5.	In function a() , increment the value by 1.
+6.	Display the count on the status bar.
+7.	Create a necessary html document for the link.
+8.	Stop.
+9.	
+PROGRAM:
+
+Count.html:
+
+<html>
+<head>
+<title>Count</title>	</head>
+<script>
+var p=0;
+function a()
+{
+p=p+1
+window.status=p;
+}
+</script>	</head>
+<body>
+<a href=sample.html" onmouseover="a()">
+See the status bar</a>
+</body></html>
+
+
+
+OUTPUT:
+
+
+ 
+
+
+
+
+
+
+
+RESULT:
+
+	Thus the above program was successfully executed and then output was verified.
+
+
+
+
+
+
+
+
+
+
+
+
